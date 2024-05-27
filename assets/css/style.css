@@ -8155,12 +8155,12 @@ a.default-btn {
 
 
 
-.product-area .text-center{
+.product-area .text-center {
   padding-top: 25px;
 }
 
 
-.suppoer-area .text-center{
+.suppoer-area .text-center {
   padding-top: 25px;
 
 }
@@ -8240,10 +8240,11 @@ a.default-btn {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-@media only screen and  (max-width: 768px) {
-  .product-tab-list a h4{
 
-font-size: 15px;
+@media only screen and (max-width: 768px) {
+  .product-tab-list a h4 {
+
+    font-size: 15px;
 
   }
 }
@@ -9129,7 +9130,7 @@ font-size: 15px;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content:center;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -9168,7 +9169,7 @@ font-size: 15px;
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .product-tab-list-2 {
     margin: 0 0 0px;
-    
+
   }
 }
 
@@ -15355,7 +15356,7 @@ font-size: 15px;
   font-size: 14px;
   height: 43px;
   padding: 2px 55px 2px 18px;
-  
+
 
 }
 
@@ -17279,25 +17280,29 @@ h3.cart-page-title {
 
 .contact-info-wrap {
   /* background-color: #f3f3f3; */
-  padding: 120px 70px 116px 90px;
+  /* padding: 120px 70px 116px 90px; */
+  padding: 38px 45px 44px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1)
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .contact-info-wrap {
-    padding: 120px 20px 116px 40px;
+    /* padding: 120px 20px 116px 40px; */
+    padding: 30px 20px 36px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-info-wrap {
-    padding: 120px 20px 116px 30px;
+    /* padding: 120px 20px 116px 30px; */
+    padding: 30px 20px 36px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .contact-info-wrap {
-    padding: 50px 20px 45px 30px;
+    /* padding: 50px 20px 45px 30px; */
+    padding: 30px 20px 36px;
     margin-bottom: 30px;
     margin-top: 20px;
   }
@@ -17384,25 +17389,31 @@ h3.cart-page-title {
 
 .contact-form {
   /* background-color: #f3f3f3; */
-  padding: 50px 110px 50px 110px;
+  /* padding: 50px 110px 50px 110px; */
+  padding: 38px 45px 44px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1)
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .contact-form {
-    padding: 50px 50px 50px 50px;
+    /* padding: 50px 50px 50px 50px; */
+
+    padding: 30px 20px 36px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-form {
-    padding: 50px 30px 50px 30px;
+    /* padding: 50px 30px 50px 30px; */
+    padding: 30px 20px 36px;
+    margin-top: 30px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .contact-form {
-    padding: 50px 30px 50px 30px;
+    /* padding: 50px 30px 50px 30px; */
+    padding: 30px 20px 36px;
   }
 }
 
@@ -17931,19 +17942,22 @@ h3.cart-page-title {
   background: transparent none repeat scroll 0 0;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
-  padding: 80px;
+  /* padding: 80px; */
+  padding: 38px 45px 44px;
   text-align: left;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .login-register-wrapper .login-form-container {
-    padding: 80px 50px;
+    /* padding: 80px 50px; */
+    padding: 30px 20px 36px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .login-register-wrapper .login-form-container {
-    padding: 40px 15px;
+    /* padding: 40px 15px; */
+    padding: 30px 20px 36px;
   }
 }
 
@@ -18373,4 +18387,3 @@ h3.cart-page-title {
 .mmm a:hover {
   background-color: #054A91
 }
-
