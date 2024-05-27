@@ -8152,6 +8152,23 @@ a.default-btn {
 }
 
 /*------- 6. Product style  --------*/
+
+
+
+.product-area .text-center{
+  padding-top: 25px;
+}
+
+
+.suppoer-area .text-center{
+  padding-top: 25px;
+
+}
+
+
+
+
+
 .product-area {
   position: relative;
 }
