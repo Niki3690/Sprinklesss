@@ -8155,20 +8155,6 @@ a.default-btn {
 
 
 
-.product-area .text-center {
-  padding-top: 25px;
-}
-
-
-.suppoer-area .text-center {
-  padding-top: 25px;
-
-}
-
-
-
-
-
 .product-area {
   position: relative;
 }
@@ -11525,7 +11511,7 @@ a.default-btn {
 /*-------- 8. Footer style  -----*/
 .copyright .footer-logo {
   margin-bottom: 12px;
-  margin-top: 41px;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -11836,6 +11822,7 @@ a.default-btn {
   margin-top: 15px;
   padding-top: 50px;
   padding-bottom: 20px;
+  margin-top: 40px;
 }
 
 .footer-area.ml-10 {
