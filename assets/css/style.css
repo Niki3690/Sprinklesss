@@ -17021,6 +17021,10 @@ h3.cart-page-title {
   margin: 0 0 0 12px;
 }
 
+.billing-info-wrap .checkout-account-toggle {
+  display: none; 
+}
+
 .billing-info-wrap .checkout-account-toggle input {
   background: transparent none repeat scroll 0 0;
   border: 1px solid #e6e6e6;
