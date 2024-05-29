@@ -8354,7 +8354,19 @@ a.default-btn {
   padding: 3px 11px;
   border-radius: 3px;
   font-weight: 500;
+  
 }
+
+.neni:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+}
+/* 
+.product-wrap:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 15px;
+} */
+
 
 .product-wrap .product-img span.pink {
   background-color: #002365;
