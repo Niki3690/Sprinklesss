@@ -8355,20 +8355,21 @@ a.default-btn {
   padding: 3px 11px;
   border-radius: 3px;
   font-weight: 500;
-  
+
 }
 
-.neni:hover{
+.neni:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
+
 /* 
 .product-wrap:hover{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 15px;
 } */
 
-.product-wrap{
+.product-wrap {
   border: 1px solid black;
   padding: 15px;
 }
@@ -17040,7 +17041,7 @@ h3.cart-page-title {
 }
 
 .billing-info-wrap .checkout-account-toggle {
-  display: none; 
+  display: none;
 }
 
 .billing-info-wrap .checkout-account-toggle input {
