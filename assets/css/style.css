@@ -9304,7 +9304,7 @@ a.default-btn {
   color: #000;
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   padding-bottom: 7px;
   position: relative;
   text-transform: capitalize;
@@ -9362,6 +9362,10 @@ a.default-btn {
   border: none;
   font-size: 16px;
   font-weight: 500;
+}
+
+.price-filter{
+  margin-top: -15px;
 }
 
 .price-filter #slider-range {
