@@ -9364,9 +9364,9 @@ a.default-btn {
   font-weight: 500;
 }
 
-.price-filter{
+/* .price-filter{
   margin-top: -15px;
-}
+} */
 
 .price-filter #slider-range {
   background: #dbdbdb none repeat scroll 0 0;
