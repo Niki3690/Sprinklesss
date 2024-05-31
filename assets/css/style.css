@@ -8453,6 +8453,43 @@ a.default-btn {
   transition-delay: 0.1s; */
 }
 
+
+
+.pro-cart a {
+  font-size: 14px;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pro-cart a {
+    font-size: 12px !important;
+  }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pro-cart a {
+    font-size: 12px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .product-wrap .product-img .product-action .pro-quickview {
   width: 48px;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
@@ -8571,12 +8608,16 @@ a.default-btn {
   }
 }
 
+
+
 @media only screen and (max-width: 767px) {
   .modal-dialog {
     width: 100%;
     max-width: 100%;
     padding: 35px 0;
   }
+
+
 }
 
 .modal-dialog .modal-header .close {
