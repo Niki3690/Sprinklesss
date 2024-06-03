@@ -1,68 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
+<style>
+  .submenu {
+    display: none;
+}
+
+.submenu.open {
+    display: block;
+}
+
+</style>
 <body>
-    <div>
-        <ul>
-            <li>
-              <div class="sidebar-widget-list-left">
-                <label>
-                  <input type="checkbox" />
-                  <span>Gold</span>
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </li>
-            <li>
-              <div class="sidebar-widget-list-left">
-                <label>
-                  <input type="checkbox" />
-                  <span>Silver</span>
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </li>
-            <li>
-              <div class="sidebar-widget-list-left">
-                <label>
-                  <input type="checkbox" />
-                  <span>Rose-Gold</span>
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </li>
-            <li>
-              <div class="sidebar-widget-list-left">
-                <label>
-                  <input type="checkbox" />
-                  <span>Platinum</span>
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </li>
-            <li>
-              <div class="sidebar-widget-list-left">
-                <label>
-                  <input type="checkbox" />
-                  <span>Pearl</span>
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </li>
-            <li>
-              <div class="sidebar-widget-list-left">
-                <label>
-                  <input type="checkbox" />
-                  <span>Handcrafted</span>
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-            </li>
-          </ul>
+  <div class="mobile-menu-area">
+    <div class="mobile-menu">
+        <nav id="mobile-menu-active">
+            <ul class="menu-overflow">
+                <li>
+                    <a href="index.html">HOME</a>
+                    <ul class="submenu" id="home-submenu">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="index-2.html">Home 2</a></li>
+                        <li><a href="index-3.html">Home 3</a></li>
+                        <li><a href="index-4.html">Home 4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="shop-filter.html">Shop</a>
+                    <ul class="submenu" id="shop-submenu">
+                        <li><a href="shop-filter.html">Grid filter style</a></li>
+                        <li><a href="shop-grid-fw.html">Grid full wide</a></li>
+                        <li><a href="shop-right-sidebar.html">Grid right sidebar</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="cart-page.html">Pages</a>
+                    <ul class="submenu" id="pages-submenu">
+                        <li><a href="cart-page.html">Cart page</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li><a href="Login-Page.html">Login Page</a></li>
+                        <li><a href="Register-Page.html">Register Page</a></li>
+                        <li><a href="Forgot-Password.html">Forgot password</a></li>
+                        <li><a href="404.html">404 page</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuItems = document.querySelectorAll('.menu-overflow > li > a');
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', function (event) {
+            const submenu = this.nextElementSibling;
+
+            // Close all open submenus
+            document.querySelectorAll('.submenu.open').forEach(openSubmenu => {
+                if (openSubmenu !== submenu) {
+                    openSubmenu.classList.remove('open');
+                }
+            });
+
+            // Toggle the current submenu
+            if (submenu) {
+                submenu.classList.toggle('open');
+                event.preventDefault(); // Prevent the default action (navigation) if you want only to toggle
+            }
+        });
+    });
+});
+
+</script>
+
 </body>
 </html>
